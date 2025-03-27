@@ -111,11 +111,11 @@ Visualization of overlaps using Venn diagram.
 
 Comparison of coordinates reported by tools.
 ```
-Unique regions in GECCO: 1
-Unique regions in AntiSMASH: 8
-Unique regions in DeepBGC: 67
-Intersection between GECCO and AntiSMASH: 1
-Intersection between GECCO and DeepBGC: 5
+Unique regions in GECCO: 2
+Unique regions in AntiSMASH: 9
+Unique regions in DeepBGC: 115
+Intersection between GECCO and AntiSMASH: 3
+Intersection between GECCO and DeepBGC: 11
 Intersection between AntiSMASH and DeepBGC: 1
 Intersection across all three tools: 19
 ```
