@@ -1,132 +1,134 @@
 # Biosynthetic Gene Cluster (BGC) Tools Comparison
 
-## Description
-This project involves a comparative analysis of different tools used for detecting and classifying biosynthetic gene clusters (BGCs). The notebook explores the performance of various tools using genomic data from Streptomyces avidinii, Streptomyces ameniacus, and S. coelicolor. It includes visualizations such as dynamic genomic coordinate plots and Venn diagrams to illustrate overlaps and differences between the tools.
+<div align="center">
 
-## Table of Contents
-- [Project Overview](#project-overview)
-- [Installation](#model-performance-comparison)
-- [Tools and Methods](#features)
-- [antiSMASH](#dataset)
-- [GECCO](#usage)
-- [DeepBGC](#project-structure)
-- [Results](#contributing)
-- [Streptomyces avidinii](#connect-with-me)
-- [Streptomyces ameniacus](#project-structure)
-- [S. coelicolor](#contributing)
-- [Visualization](#connect-with-me)
-- [Contributing](#connect-with-me)
+![BGC Analysis](figures/coelicolor_venn.png)
 
+A comprehensive analysis and comparison of BGC detection tools for Streptomyces species
 
-## Project Overview
-This notebook provides a detailed comparison of BGC detection and classification tools. The primary objectives include:
+</div>
 
-- Comparing the genomic coordinates reported by each tool.
-- Visualizing overlaps and discrepancies using genomic coordinate plots and Venn diagrams.
-- Exploring the applicability of emerging tools such as Microsoft's protein sequence models.
+## 📋 Table of Contents
+- [Overview](#overview)
+- [Key Features](#key-features)
+- [Installation](#installation)
+- [Tools Analyzed](#tools-analyzed)
+- [Results](#results)
+  - [Streptomyces coelicolor](#streptomyces-coelicolor)
+  - [Streptomyces ameniacus](#streptomyces-ameniacus)
+  - [Streptomyces avidinii](#streptomyces-avidinii)
+- [Contributing](#contributing)
 
+## 🔍 Overview
 
-## Installation
-To replicate the analysis, follow these steps:
+This project provides a detailed comparative analysis of different tools used for detecting and classifying Biosynthetic Gene Clusters (BGCs) in bacterial genomes. The analysis focuses on three important Streptomyces species and evaluates the performance of leading BGC detection tools: antiSMASH, GECCO, and DeepBGC.
 
-1. Clone this repository or download the  `main.ipynb` notebook.
-2. Install the required dependencies using pip:
+## ✨ Key Features
+
+- Comprehensive comparison of three major BGC detection tools
+- Analysis of genomic data from three Streptomyces species
+- Visual representation of tool overlaps using Venn diagrams
+- Dynamic genomic coordinate plots
+- Detailed statistical analysis of tool performance
+- Jupyter notebook implementation for reproducible research
+
+## 🚀 Installation
+
+1. Clone this repository:
+```bash
+git clone https://github.com/yourusername/BGC_Prediction.git
+cd BGC_Prediction
 ```
-pip install pandas numpy matplotlib seaborn
-pip install antismash gecco deepbgc
+
+2. Install required dependencies:
+```bash
+pip install -r requirements.txt
 ```
 
-3. (Optional) Set up Jupyter Notebook or JupyterLab to execute the notebook:
+3. Install the BGC detection tools:
+```bash
+# antiSMASH
+conda create -n antismash python=3.8
+conda activate antismash
+pip install antismash
+
+# GECCO
+pip install gecco-tool
+
+# DeepBGC
+pip install deepbgc
 ```
-pip install notebook
+
+4. Run the Jupyter notebook:
+```bash
 jupyter notebook main.ipynb
 ```
 
-## Tools and Methods
-**antiSMASH**
+## 🛠️ Tools Analyzed
 
-Applied to Streptomyces avidinii, Streptomyces ameniacus, and S. coelicolor.
+### antiSMASH
+- Industry standard for BGC detection
+- Provides detailed annotations and classifications
+- Comprehensive analysis of secondary metabolite biosynthesis pathways
 
-Provides detailed annotations and classifications of BGCs.
+### GECCO
+- Rule-based approach for gene cluster detection
+- Focuses on genomic context and gene organization
+- Efficient processing of large genomic datasets
 
-**GECCO**
+### DeepBGC
+- Machine learning-based BGC classification
+- Utilizes deep learning models for prediction
+- Capable of detecting novel BGC types
 
-Focuses on gene cluster detection using a rule-based approach.
+## 📊 Results
 
-Analyzed for the same Streptomyces species as antiSMASH.
+### Streptomyces coelicolor
+![S. coelicolor Results](figures/coelicolor_venn.png)
 
-**DeepBGC**
+Key findings:
+- 21 BGCs detected by all three tools
+- 115 unique regions identified by DeepBGC
+- 9 unique regions detected by GECCO
+- 2 unique regions found by antiSMASH
 
-Utilizes machine learning models to classify BGCs.
+### Streptomyces ameniacus
+![S. ameniacus Results](figures/ameniacus_venn.png)
 
-Tested on multiple Streptomyces genomes.
+Key findings:
+- 20 BGCs detected by all three tools
+- 81 unique regions identified by DeepBGC
+- 5 unique regions detected by antiSMASH
+- 2 unique regions found by GECCO
 
-## Results
+### Streptomyces avidinii
+![S. avidinii Results](figures/avidinii_venn.png)
 
-### **S. coelicolor**
+Key findings:
+- 23 BGCs detected by all three tools
+- 67 unique regions identified by DeepBGC
+- 8 unique regions detected by GECCO
+- 1 unique region found by antiSMASH
 
-Comparison of coordinates reported by tools.
-```
-Unique regions in GECCO: 9
-Unique regions in AntiSMASH: 2
-Unique regions in DeepBGC: 115
-Intersection between GECCO and AntiSMASH: 3
-Intersection between GECCO and DeepBGC: 11
-Intersection between AntiSMASH and DeepBGC: 1
-Intersection across all three tools: 21
-```
+## 🤝 Contributing
 
-Visualization of overlaps using Venn diagram.
+Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
-<!-- ![Data Visualization](figures/coelicolor_coordinates.png) -->
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
+## 📝 License
 
-![Data Visualization](figures/coelicolor_venn.png)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-### **Streptomyces ameniacus**
+---
 
-Comparison of coordinates reported by tools.
-```
-Unique regions in GECCO: 2
-Unique regions in AntiSMASH: 5
-Unique regions in DeepBGC: 81
-Intersection between GECCO and AntiSMASH: 4
-Intersection between GECCO and DeepBGC: 5
-Intersection between AntiSMASH and DeepBGC: 1
-Intersection across all three tools: 20
-```
-
-Visualization of overlaps using Venn diagram.
-
-<!-- ![Data Visualization](figures/ameniacus_coordinates.png) -->
-
-
-![Data Visualization](figures/ameniacus_venn.png)
-
-***
-
-### **Streptomyces avidinii**
-
-Comparison of coordinates reported by tools.
-
-```
-Unique regions in GECCO: 8
-Unique regions in AntiSMASH: 1
-Unique regions in DeepBGC: 67
-Intersection between GECCO and AntiSMASH: 1
-Intersection between GECCO and DeepBGC: 5
-Intersection between AntiSMASH and DeepBGC: 1
-Intersection across all three tools: 23
-```
-
-Visualization of overlaps using Venn diagram.
-
-<!-- ![Data Visualization](figures/avidinii_coordinates.png) -->
-
-
-![Data Visualization](figures/avidinii_venn.png)
-
-***
+<div align="center">
+Created with ❤️ for the bioinformatics community
+</div>
 
 
 
