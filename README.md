@@ -1,19 +1,11 @@
 # Biosynthetic Gene Cluster (BGC) Tools Comparison
 
-<div align="center">
-
-![BGC Analysis](figures/coelicolor_venn.png)
-
-A comprehensive analysis and comparison of BGC detection tools for Streptomyces species
-
-</div>
-
 ## 📋 Table of Contents
-- [Overview](#overview)
-- [Key Features](#key-features)
-- [Installation](#installation)
-- [Tools Analyzed](#tools-analyzed)
-- [Results](#results)
+- [Overview](#Overview)
+- [Key Features](#Key-features)
+- [Installation](#Installation)
+- [Tools Analyzed](#Tools-analyzed)
+- [Results](#Results)
   - [Streptomyces coelicolor](#streptomyces-coelicolor)
   - [Streptomyces ameniacus](#streptomyces-ameniacus)
   - [Streptomyces avidinii](#streptomyces-avidinii)
@@ -28,7 +20,6 @@ This project provides a detailed comparative analysis of different tools used fo
 - Comprehensive comparison of three major BGC detection tools
 - Analysis of genomic data from three Streptomyces species
 - Visual representation of tool overlaps using Venn diagrams
-- Dynamic genomic coordinate plots
 - Detailed statistical analysis of tool performance
 - Jupyter notebook implementation for reproducible research
 
@@ -40,12 +31,7 @@ git clone https://github.com/yourusername/BGC_Prediction.git
 cd BGC_Prediction
 ```
 
-2. Install required dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-3. Install the BGC detection tools:
+2. Install the BGC detection tools:
 ```bash
 # antiSMASH
 conda create -n antismash python=3.8
@@ -59,7 +45,7 @@ pip install gecco-tool
 pip install deepbgc
 ```
 
-4. Run the Jupyter notebook:
+3. Run the Jupyter notebook:
 ```bash
 jupyter notebook main.ipynb
 ```
@@ -112,23 +98,13 @@ Key findings:
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
+Contributions are welcome :) Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-<div align="center">
-Created with ❤️ for the bioinformatics community
-</div>
 
 
 
