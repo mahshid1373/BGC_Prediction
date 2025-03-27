@@ -70,7 +70,10 @@ jupyter notebook main.ipynb
 ## 📊 Results
 
 ### Data Format
-The analysis results are stored in TSV (Tab-Separated Values) files with the following columns:
+The analysis results are stored in two main formats:
+
+#### 1. TSV Summary Files
+Located in the `BGC_predictions` folder, these files contain the comparative analysis results:
 
 | Column | Description |
 |--------|-------------|
@@ -82,7 +85,24 @@ The analysis results are stored in TSV (Tab-Separated Values) files with the fol
 | GECCO | Binary indicator (1/0) for GECCO detection |
 | DeepBGC | Binary indicator (1/0) for DeepBGC detection |
 
-✅ "You can find the results in the 'BGC_predictions' folder."
+#### 2. GenBank Files
+Located in the `output_gbk` folder, these files contain detailed genomic annotations:
+
+| File | Description | Size |
+|------|-------------|------|
+| S.coelicolor_A3_modified.gbk | Annotated genome of S. coelicolor | 19MB |
+| Streptomyces_ameniacus_modified.gbk | Annotated genome of S. ameniacus | 20MB |
+| Streptomyces_avidinii_modified.gbk | Annotated genome of S. avidinii | 17MB |
+
+The GenBank files contain:
+- Complete genome sequences
+- Gene annotations
+- Predicted BGC locations and types
+- Detailed feature annotations from each tool
+- Protein and coding sequences
+- Tool-specific metadata and predictions
+
+These files can be viewed with genome browsers or bioinformatics tools like Artemis, UGENE, or SnapGene.
 
 ### Region Intersection Logic
 BGC regions are considered to intersect when they:
