@@ -76,9 +76,9 @@ Intersection between AntiSMASH and DeepBGC: 30
 Intersection across all three tools: 27
 ```
 
-Visualization of overlaps using dynamic plots and Venn diagrams.
+Visualization of overlaps using Venn diagram.
 
-![Data Visualization](figures/avidinii_coordinates.png)
+<!-- ![Data Visualization](figures/avidinii_coordinates.png) -->
 
 
 ![Data Visualization](figures/avidinii_venn.png)
@@ -98,9 +98,9 @@ Intersection between AntiSMASH and DeepBGC: 0
 Intersection across all three tools: 0
 ```
 
-Visualization of overlaps using dynamic plots and Venn diagrams.
+Visualization of overlaps using Venn diagram.
 
-![Data Visualization](figures/ameniacus_coordinates.png)
+<!-- ![Data Visualization](figures/ameniacus_coordinates.png) -->
 
 
 ![Data Visualization](figures/ameniacus_venn.png)
@@ -120,9 +120,9 @@ Intersection between AntiSMASH and DeepBGC: 22
 Intersection across all three tools: 19
 ```
 
-Visualization of overlaps using dynamic plots and Venn diagrams.
+Visualization of overlaps using Venn diagram.
 
-![Data Visualization](figures/coelicolor_coordinates.png)
+<!-- ![Data Visualization](figures/coelicolor_coordinates.png) -->
 
 
 ![Data Visualization](figures/coelicolor_venn.png)
