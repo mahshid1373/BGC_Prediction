@@ -90,6 +90,8 @@ The analysis results are stored in TSV (Tab-Separated Values) files with the fol
 | GECCO | Binary indicator (1/0) for GECCO detection |
 | DeepBGC | Binary indicator (1/0) for DeepBGC detection |
 
+✅ "You can find the results in the 'BGC_predictions' folder."
+
 ### Region Intersection Logic
 BGC regions are considered to intersect when they:
 1. Share the same sequence ID
