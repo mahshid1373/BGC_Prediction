@@ -1,15 +1,23 @@
 # Biosynthetic Gene Cluster (BGC) Tools Comparison
 
+<div align="center">
+
+![BGC Analysis](figures/coelicolor_venn.png)
+
+A comprehensive analysis and comparison of BGC detection tools for Streptomyces species
+
+</div>
+
 ## 📋 Table of Contents
-- [Overview](#Overview)
-- [Key Features](#Key-features)
-- [Installation](#Installation)
-- [Tools Analyzed](#Tools-analyzed)
-- [Results](#📊_Results)
+- [Overview](#-overview)
+- [Key Features](#-key-features)
+- [Installation](#-installation)
+- [Tools Analyzed](#-tools-analyzed)
+- [Results](#-results)
   - [Streptomyces coelicolor](#streptomyces-coelicolor)
   - [Streptomyces ameniacus](#streptomyces-ameniacus)
   - [Streptomyces avidinii](#streptomyces-avidinii)
-- [Contributing](#contributing)
+- [Contributing](#-contributing)
 
 ## 🔍 Overview
 
