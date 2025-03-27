@@ -78,10 +78,10 @@ Intersection across all three tools: 27
 
 Visualization of overlaps using dynamic plots and Venn diagrams.
 
-![Data Visualization](avidinii_coordinates.png)
+![Data Visualization](figures/avidinii_coordinates.png)
 
 
-![Data Visualization](avidinii_venn.png)
+![Data Visualization](figures/avidinii_venn.png)
 
 ***
 
@@ -100,10 +100,10 @@ Intersection across all three tools: 0
 
 Visualization of overlaps using dynamic plots and Venn diagrams.
 
-![Data Visualization](ameniacus_coordinates.png)
+![Data Visualization](figures/ameniacus_coordinates.png)
 
 
-![Data Visualization](ameniacus_venn.png)
+![Data Visualization](figures/ameniacus_venn.png)
 
 ***
 
@@ -122,7 +122,7 @@ Intersection across all three tools: 19
 
 Visualization of overlaps using dynamic plots and Venn diagrams.
 
-![Data Visualization](coelicolor_coordinates.png)
+![Data Visualization](figures/coelicolor_coordinates.png)
 
 
-![Data Visualization](coelicolor_venn.png)
+![Data Visualization](figures/coelicolor_venn.png)
