@@ -5,7 +5,7 @@
 - [Key Features](#Key-features)
 - [Installation](#Installation)
 - [Tools Analyzed](#Tools-analyzed)
-- [Results](#📊 Results)
+- [Results](#📊_Results)
   - [Streptomyces coelicolor](#streptomyces-coelicolor)
   - [Streptomyces ameniacus](#streptomyces-ameniacus)
   - [Streptomyces avidinii](#streptomyces-avidinii)
