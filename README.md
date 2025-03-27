@@ -113,7 +113,7 @@ This means two regions intersect if:
 ![S. coelicolor Results](figures/coelicolor_venn.png)
 
 Key findings:
-- Total BGCs detected: 164
+- Total BGCs detected: 162
 - 21 BGCs detected by all three tools (13%)
 - 115 unique regions identified by DeepBGC (70%)
 - 9 unique regions detected by GECCO (5%)
@@ -124,7 +124,7 @@ Key findings:
 ![S. ameniacus Results](figures/ameniacus_venn.png)
 
 Key findings:
-- Total BGCs detected: 120
+- Total BGCs detected: 118
 - 20 BGCs detected by all three tools (17%)
 - 81 unique regions identified by DeepBGC (68%)
 - 5 unique regions detected by antiSMASH (4%)
@@ -135,7 +135,7 @@ Key findings:
 ![S. avidinii Results](figures/avidinii_venn.png)
 
 Key findings:
-- Total BGCs detected: 108
+- Total BGCs detected: 106
 - 23 BGCs detected by all three tools (21%)
 - 67 unique regions identified by DeepBGC (62%)
 - 8 unique regions detected by GECCO (7%)
