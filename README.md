@@ -62,50 +62,6 @@ Utilizes machine learning models to classify BGCs.
 Tested on multiple Streptomyces genomes.
 
 ## Results
-### **Streptomyces avidinii**
-
-Comparison of coordinates reported by tools.
-
-```
-Unique regions in GECCO: 8
-Unique regions in AntiSMASH: 1
-Unique regions in DeepBGC: 67
-Intersection between GECCO and AntiSMASH: 1
-Intersection between GECCO and DeepBGC: 5
-Intersection between AntiSMASH and DeepBGC: 1
-Intersection across all three tools: 19
-```
-
-Visualization of overlaps using Venn diagram.
-
-<!-- ![Data Visualization](figures/avidinii_coordinates.png) -->
-
-
-![Data Visualization](figures/avidinii_venn.png)
-
-***
-
-### **Streptomyces ameniacus**
-
-Comparison of coordinates reported by tools.
-```
-Unique regions in GECCO: 2
-Unique regions in AntiSMASH: 5
-Unique regions in DeepBGC: 81
-Intersection between GECCO and AntiSMASH: 4
-Intersection between GECCO and DeepBGC: 5
-Intersection between AntiSMASH and DeepBGC: 1
-Intersection across all three tools: 19
-```
-
-Visualization of overlaps using Venn diagram.
-
-<!-- ![Data Visualization](figures/ameniacus_coordinates.png) -->
-
-
-![Data Visualization](figures/ameniacus_venn.png)
-
-***
 
 ### **S. coelicolor**
 
@@ -117,7 +73,7 @@ Unique regions in DeepBGC: 115
 Intersection between GECCO and AntiSMASH: 3
 Intersection between GECCO and DeepBGC: 11
 Intersection between AntiSMASH and DeepBGC: 1
-Intersection across all three tools: 19
+Intersection across all three tools: 21
 ```
 
 Visualization of overlaps using Venn diagram.
@@ -126,3 +82,51 @@ Visualization of overlaps using Venn diagram.
 
 
 ![Data Visualization](figures/coelicolor_venn.png)
+
+### **Streptomyces ameniacus**
+
+Comparison of coordinates reported by tools.
+```
+Unique regions in GECCO: 2
+Unique regions in AntiSMASH: 5
+Unique regions in DeepBGC: 81
+Intersection between GECCO and AntiSMASH: 4
+Intersection between GECCO and DeepBGC: 5
+Intersection between AntiSMASH and DeepBGC: 1
+Intersection across all three tools: 20
+```
+
+Visualization of overlaps using Venn diagram.
+
+<!-- ![Data Visualization](figures/ameniacus_coordinates.png) -->
+
+
+![Data Visualization](figures/ameniacus_venn.png)
+
+***
+
+### **Streptomyces avidinii**
+
+Comparison of coordinates reported by tools.
+
+```
+Unique regions in GECCO: 8
+Unique regions in AntiSMASH: 1
+Unique regions in DeepBGC: 67
+Intersection between GECCO and AntiSMASH: 1
+Intersection between GECCO and DeepBGC: 5
+Intersection between AntiSMASH and DeepBGC: 1
+Intersection across all three tools: 23
+```
+
+Visualization of overlaps using Venn diagram.
+
+<!-- ![Data Visualization](figures/avidinii_coordinates.png) -->
+
+
+![Data Visualization](figures/avidinii_venn.png)
+
+***
+
+
+
