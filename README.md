@@ -67,8 +67,8 @@ Tested on multiple Streptomyces genomes.
 Comparison of coordinates reported by tools.
 
 ```
-Unique regions in GECCO: 1
-Unique regions in AntiSMASH: 8
+Unique regions in GECCO: 8
+Unique regions in AntiSMASH: 1
 Unique regions in DeepBGC: 67
 Intersection between GECCO and AntiSMASH: 1
 Intersection between GECCO and DeepBGC: 5
@@ -89,8 +89,8 @@ Visualization of overlaps using Venn diagram.
 
 Comparison of coordinates reported by tools.
 ```
-Unique regions in GECCO: 5
-Unique regions in AntiSMASH: 2
+Unique regions in GECCO: 2
+Unique regions in AntiSMASH: 5
 Unique regions in DeepBGC: 81
 Intersection between GECCO and AntiSMASH: 4
 Intersection between GECCO and DeepBGC: 5
@@ -111,8 +111,8 @@ Visualization of overlaps using Venn diagram.
 
 Comparison of coordinates reported by tools.
 ```
-Unique regions in GECCO: 2
-Unique regions in AntiSMASH: 9
+Unique regions in GECCO: 9
+Unique regions in AntiSMASH: 2
 Unique regions in DeepBGC: 115
 Intersection between GECCO and AntiSMASH: 3
 Intersection between GECCO and DeepBGC: 11
