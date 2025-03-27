@@ -68,8 +68,8 @@ Comparison of coordinates reported by tools.
 
 ```
 Unique regions in GECCO: 8
-Unique regions in AntiSMASH: 2
-Unique regions in DeepBGC: 111
+Unique regions in AntiSMASH: 1
+Unique regions in DeepBGC: 76
 Intersection between GECCO and AntiSMASH: 32
 Intersection between GECCO and DeepBGC: 34
 Intersection between AntiSMASH and DeepBGC: 30
@@ -89,13 +89,13 @@ Visualization of overlaps using Venn diagram.
 
 Comparison of coordinates reported by tools.
 ```
-Unique regions in GECCO: 7
-Unique regions in AntiSMASH: 181
-Unique regions in DeepBGC: 116
-Intersection between GECCO and AntiSMASH: 0
+Unique regions in GECCO: 2
+Unique regions in AntiSMASH: 5
+Unique regions in DeepBGC: 87
+Intersection between GECCO and AntiSMASH: 26
 Intersection between GECCO and DeepBGC: 26
-Intersection between AntiSMASH and DeepBGC: 0
-Intersection across all three tools: 0
+Intersection between AntiSMASH and DeepBGC: 21
+Intersection across all three tools: 21
 ```
 
 Visualization of overlaps using Venn diagram.
@@ -112,8 +112,8 @@ Visualization of overlaps using Venn diagram.
 Comparison of coordinates reported by tools.
 ```
 Unique regions in GECCO: 9
-Unique regions in AntiSMASH: 5
-Unique regions in DeepBGC: 166
+Unique regions in AntiSMASH: 2
+Unique regions in DeepBGC: 132
 Intersection between GECCO and AntiSMASH: 24
 Intersection between GECCO and DeepBGC: 32
 Intersection between AntiSMASH and DeepBGC: 22
