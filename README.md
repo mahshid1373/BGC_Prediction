@@ -57,15 +57,64 @@ jupyter notebook main.ipynb
 - Provides detailed annotations and classifications
 - Comprehensive analysis of secondary metabolite biosynthesis pathways
 
+**Running antiSMASH:**
+The analysis was performed using the antiSMASH 6.0 web server:
+1. Visit [https://antismash.secondarymetabolites.org](https://antismash.secondarymetabolites.org)
+2. Upload genome files in GenBank/FASTA format
+3. Use default settings for bacterial genome analysis
+4. Download the GenBank result files
+
 ### GECCO
 - Rule-based approach for gene cluster detection
 - Focuses on genomic context and gene organization
 - Efficient processing of large genomic datasets
 
+**Running GECCO:**
+```bash
+# For each genome file (in FASTA format):
+gecco run \
+    --genome input_genome.fasta \
+    --output gecco_output \
+    --proteins proteins.faa \  # Optional: provide protein sequences
+    --threads 4 \
+    --force    # Overwrite existing output directory
+
+# Convert GECCO output to GBK format
+python scripts/gecco_to_gbk.py \
+    --input gecco_output/clusters.tsv \
+    --output output_gbk/genome_gecco.gbk
+```
+
 ### DeepBGC
 - Machine learning-based BGC classification
 - Utilizes deep learning models for prediction
 - Capable of detecting novel BGC types
+
+**Running DeepBGC:**
+```bash
+# Download the pre-trained model (if not already present)
+deepbgc download
+
+# Detect BGCs in genome sequences
+deepbgc pipeline \
+    --input input_genome.fasta \
+    --output deepbgc_output \
+    --label genome_name \
+    --detector hybrid \
+    --classifier product-class
+
+# Convert DeepBGC output to GBK format
+python scripts/deepbgc_to_gbk.py \
+    --input deepbgc_output/bgc.tsv \
+    --output output_gbk/genome_deepbgc.gbk
+```
+
+### Important Notes
+- All tools were run with their default parameters to ensure fair comparison
+- Input genomes were provided in FASTA format for GECCO and DeepBGC
+- antiSMASH results were downloaded in GenBank format
+- Custom scripts were used to convert GECCO and DeepBGC outputs to GenBank format for consistency
+- All analyses were performed on complete genome sequences
 
 ## 📊 Results
 
