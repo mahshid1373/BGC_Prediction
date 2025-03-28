@@ -4,6 +4,7 @@
 - [Overview](#-overview)
 - [Key Features](#-key-features)
 - [Installation](#-installation)
+- [Project Structure](#-project-structure)
 - [Tools Analyzed](#%EF%B8%8F-tools-analyzed)
 - [Results](#-results)
   - [Streptomyces coelicolor](#streptomyces-coelicolor)
@@ -49,6 +50,27 @@ pip install deepbgc
 ```bash
 jupyter notebook main.ipynb
 ```
+
+## 📁 Project Structure
+The project follows this directory structure for tool outputs:
+
+```
+BGC_Prediction/
+├── S.coelicolor/
+│   ├── antismash/     # antiSMASH output files
+│   ├── gecco/         # GECCO output files (including clusters.tsv)
+│   └── deepbgc/       # DeepBGC output files
+├── S.ameniacus/
+│   ├── antismash/
+│   ├── gecco/
+│   └── deepbgc/
+└── S.avidinii/
+    ├── antismash/
+    ├── gecco/
+    └── deepbgc/
+```
+
+Each tool's output is organized in separate directories for each genome, making it easy to access and compare results.
 
 ## 🛠️ Tools Analyzed
 
