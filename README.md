@@ -4,7 +4,7 @@
 - [Overview](#-overview)
 - [Key Features](#-key-features)
 - [Installation](#-installation)
-- [Tools Analyzed](#-tools-analyzed)
+- [Tools Analyzed](#%EF%B8%8F-tools-analyzed)
 - [Results](#-results)
   - [Streptomyces coelicolor](#streptomyces-coelicolor)
   - [Streptomyces ameniacus](#streptomyces-ameniacus)
@@ -102,18 +102,12 @@ deepbgc pipeline \
     --label genome_name \
     --detector hybrid \
     --classifier product-class
-
-# Convert DeepBGC output to GBK format
-python scripts/deepbgc_to_gbk.py \
-    --input deepbgc_output/bgc.tsv \
-    --output output_gbk/genome_deepbgc.gbk
 ```
 
 ### Important Notes
 - All tools were run with their default parameters to ensure fair comparison
 - Input genomes were provided in FASTA format for GECCO and DeepBGC
 - antiSMASH results were downloaded in GenBank format
-- Custom scripts were used to convert GECCO and DeepBGC outputs to GenBank format for consistency
 - All analyses were performed on complete genome sequences
 
 ## 📊 Results
