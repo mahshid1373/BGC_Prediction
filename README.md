@@ -78,12 +78,12 @@ gecco run \
     --proteins proteins.faa \  # Optional: provide protein sequences
     --threads 4 \
     --force    # Overwrite existing output directory
-
-# Convert GECCO output to GBK format
-python scripts/gecco_to_gbk.py \
-    --input gecco_output/clusters.tsv \
-    --output output_gbk/genome_gecco.gbk
 ```
+
+GECCO generates three output files in the specified output directory:
+- `clusters.tsv`: Contains the predicted BGC locations and types (used for our analysis)
+- `features.tsv`: Detailed information about genomic features
+- `proteins.faa`: Protein sequences in FASTA format
 
 ### DeepBGC
 - Machine learning-based BGC classification
