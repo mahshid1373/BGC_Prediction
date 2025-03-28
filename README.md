@@ -35,8 +35,8 @@ cd BGC_Prediction
 2. Install the BGC detection tools:
 ```bash
 # antiSMASH
-conda create -n antismash python=3.8
-conda activate antismash
+conda create -n bgc_detection python=3.8
+conda activate bgc_detection
 pip install antismash
 
 # GECCO
